@@ -12,7 +12,7 @@ class MergeSort implements Sort{
 		return args;
 	}
 
-	//recursively sorting the array: DIVIDE AND CONQUER.
+	//Recursively sorting the array: DIVIDE AND CONQUER.
 	public void sort(int[] args, int[] aux, int lo, int hi ) {
 		if(hi<=lo) return;
 		int mid = lo +(hi-lo)/2;
@@ -21,7 +21,7 @@ class MergeSort implements Sort{
 		merge(args,aux,lo,mid,hi);
 	}
 
-	//merging two sorted merge arrays.
+	//Merging two sorted merge arrays.
 	public void merge(int[] args, int[] aux, int lo, int mid, int hi) {
 		for (int k=lo;k<=hi;k++) aux[k] =args[k]; //copy
 		int i = lo;
@@ -37,13 +37,6 @@ class MergeSort implements Sort{
 	// Checks a is less than b
 	public Boolean isLess(int a , int b) {
 		return a<b;
-	}
-
-	// i, min are indexes
-	public void swap(int i, int min){
-		int temp =args[min];
-		args[min] = args[i];
-		args[i] = temp;
 	}
 
 }
