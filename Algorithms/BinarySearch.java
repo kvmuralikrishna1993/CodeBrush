@@ -1,5 +1,9 @@
+//Binary Serach is used to search value in sorted array with logN complexity.
+
 public class BinarySearch {
+
 	BinarySearch(){}
+
 	public static void main(String[] args) {
 		int[] sortedArray = {6,13,13,25,33,43,51,53,64,72,78,89,95,97};
 		int key = 51;
