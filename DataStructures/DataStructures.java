@@ -27,5 +27,16 @@ public class DataStructures {
 		if (obj2.isEmpty()) System.out.println("My Queue is Empty");
 
 
+		PriorityQueue pq = new PriorityQueue();
+		pq.capacity(5);
+		pq.insert(2);
+		pq.insert(1);
+		pq.insert(4);
+		pq.insert(3);
+		if(!pq.isEmpty()){
+			System.out.println(pq.delMax());
+		}
+
+
 	}
 }
