@@ -19,6 +19,8 @@ class Algorithms {
 		Sort obj4 = new MergeSort();
 		Sort obj5 = new MergeSortOpt();
 		Sort obj6 = new BottomUpMergeSort();
+		Sort obj7 = new QuickSort();
+		Sort obj8 = new QuickSortOpt();
 
 
 		//checking sorted or not
@@ -28,6 +30,9 @@ class Algorithms {
 		print(obj4.sort(rA));
 		print(obj5.sort(rA));
 		print(obj6.sort(rA));
+		print(obj7.sort(rA));
+		print(obj8.sort(rA));
+
 	}
 
 
