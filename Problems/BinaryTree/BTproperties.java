@@ -1,22 +1,19 @@
 	
 
-
-
-	// void printLevelOrder(){
+	// void topView(TreeNode node){
 
 	// }
 
-	// void printReverseLevelOrder(){
-			
-	// }
-
-	// void printLeftView(){
+	// void bottomView(TreeNode node){
 
 	// }
 
-	// void printRightView(){
 
-	// }
+	// max depth
+
+	// min width
+
+
 
 	// Boolean contains(int val) {
 	// 	return true;
@@ -26,51 +23,6 @@
 	// 	return 0;
 	// }
 
-
-
-		// 		// Level Order -> Print by level from top to bottom
-
-		// System.out.print("LevelOrder : ");
-		// BT.printLevelOrder();
-		// System.out.println();
-
-
-		// 	// Level Order -> Print by level from bottom to top
-
-		// System.out.print("ReverseLevelOrder : ");
-		// BT.printReverseLevelOrder();
-		// System.out.println();
-
-		// 	// Adding element for view clarity
-		// BT.root.left.left.right = new Node(8);
-
-
-		// 	//        1
-		// 	// 	   	 / \       
-		// 	//      /   \      
-		// 	//     /     \     
-		// 	//    /       \    
-		// 	//    2       3       
-		// 	//   / \     / \   
-		// 	//  /   \   /   \  
-		// 	//  4   5   6   7   
-		// 	//   \ 
-  //   		//    8   
-		// 	//   TREE AFTER ADDING ELEMENT
-
-
-
-		// 	// Print the elements of tree viewed from right side
-
-		// System.out.print("Elements Seen from RightSide : ");
-		// BT.printRightView();
-		// System.out.println();
-
-		// 	// Print the elements of tree viewed from left side 
-		
-		// System.out.print("Elements Seen from RightSide : ");
-		// BT.printLeftView();
-		// System.out.println();
 
 		// 	//Check the element exists in Tree or not.
 
