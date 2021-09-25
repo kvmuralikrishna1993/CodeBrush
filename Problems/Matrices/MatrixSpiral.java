@@ -1,0 +1,5 @@
+class MatrixSpiral {
+
+	MatrixSpiral(){}
+
+}
