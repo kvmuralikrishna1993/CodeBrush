@@ -1,15 +1,9 @@
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
-
-
-class TreeNode{
-	int val;
-	TreeNode right,left;
-	TreeNode(int val){
-		this.val = val;
-	}
-}
+import java.util.Map;
+import java.util.TreeMap;
+import java.util.Map.Entry;
 
 
 class BinaryTreeTraversal{
@@ -45,6 +39,8 @@ class BinaryTreeTraversal{
 
 	void levelOrder(TreeNode node){
 
+		if(node == null) return;
+
 		Queue<TreeNode> queue = new LinkedList<TreeNode>();
 		queue.add(node);
 
@@ -58,6 +54,8 @@ class BinaryTreeTraversal{
 	}
 
 	void reverseLevelOrder(TreeNode node){
+
+		if(node == null) return;
 
 		Stack<Integer> stack = new Stack<>(); // <- add stack to store 
 
@@ -77,6 +75,8 @@ class BinaryTreeTraversal{
 
 	void leftView(TreeNode node){
 
+		if(node == null) return;
+
 		Queue<TreeNode> queue = new LinkedList<TreeNode>();
 		queue.add(node);
 
@@ -95,6 +95,8 @@ class BinaryTreeTraversal{
 
 	void rightView(TreeNode node){
 
+		if(node == null) return;
+
 		Queue<TreeNode> queue = new LinkedList<TreeNode>();
 		queue.add(node);
 
@@ -111,4 +113,59 @@ class BinaryTreeTraversal{
 	
 	}
 
+	void topView(TreeNode node){
+
+		if(node == null) return;
+
+		Queue<QueueObj> queue = new LinkedList<>();
+
+		queue.add(new QueueObj(node, 0)); // <- initial point [root]
+		Map<Integer,TreeNode> map = new TreeMap<>();
+
+		while(!queue.isEmpty()){
+			QueueObj temp = queue.poll();
+			if(!map.containsKey(temp.hd)) map.put(temp.hd,temp.node);
+			if(temp.node.left != null) queue.add(new QueueObj(temp.node.left, temp.hd-1));
+			if(temp.node.right != null) queue.add(new QueueObj(temp.node.right, temp.hd+1));
+		}
+
+		for (Entry<Integer,TreeNode> entry : map.entrySet()) System.out.print(entry.getValue().val);
+
+	}
+
+	void bottomView(TreeNode node){
+
+		if(node == null) return;
+
+		Queue<QueueObj> queue = new LinkedList<>();
+
+		queue.add(new QueueObj(node, 0)); // <- initial point [root]
+		Map<Integer,TreeNode> map = new TreeMap<>();
+
+		while(!queue.isEmpty()){
+			QueueObj temp = queue.poll();
+			map.put(temp.hd,temp.node); // <- remove condition. 
+			if(temp.node.left != null) queue.add(new QueueObj(temp.node.left, temp.hd-1));
+			if(temp.node.right != null) queue.add(new QueueObj(temp.node.right, temp.hd+1));
+		}
+
+		for (Entry<Integer,TreeNode> entry : map.entrySet()) System.out.print(entry.getValue().val);
+
+	}
+
 }
+
+class QueueObj{
+			
+	QueueObj(){}
+
+	TreeNode node;
+	int hd;
+
+	QueueObj(TreeNode node, int hd){
+		this.node = node;
+		this.hd = hd;
+	}
+
+}
+

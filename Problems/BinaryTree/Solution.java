@@ -87,5 +87,21 @@ class Solution {
 		System.out.println();
 
 
+			// Print the elements of tree viewed from top side 
+		
+		System.out.print("Elements from Top View : ");
+		traversal.topView(root);
+		System.out.println();
+
+			// Print the elements of tree viewed from top side 
+		
+		System.out.print("Elements from Bottom View : ");
+		traversal.bottomView(root);
+		System.out.println();
+
+		/*-------------------------PROPERTIES-----------------------*/
+
+		BinaryTree properties = new BinaryTree();
+
 	}
 }
