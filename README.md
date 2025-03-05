@@ -42,29 +42,26 @@ This section contains a curated set of simple problems demonstrating key softwar
 
 ## Folder Structure:
 
-```declarative
+```
 |-- codebrush
 |   |-- ADT
-|   |   |-- LinkedList.java
 |   |   |-- Node.java
-|   |   |-- BinaryTree.java
-|   |   |-- Queues.java
-|   |   |-- QuickUnion.java
+|   |   |-- LinkedList.java
 |   |   |-- DoubleLinkedList.java
-|   |   |-- README.md
-|   |   |-- PriorityQueue.java
-|   |   |-- BinaryHeap.java
-|   |   |-- QuickFind.java
 |   |   |-- Stacks.java
+|   |   |-- Queues.java
+|   |   |-- QuickFind.java
+|   |   |-- QuickUnion.java
 |   |   |-- WeightedQuickUnion.java
-|   |-- Sort
-|   |   |-- HeapSort.java
+|   |   |-- PriorityQueue.java
+|   |   |-- BinaryTree.java
+|   |   |-- BinaryHeap.java
 |   |   |-- README.md
-|   |   |-- OptionalSorts
-|   |   |   |-- ShellSort.java
-|   |   |   |-- ShuffleSort.java
-|   |   |   |-- RadixSort.java
-|   |   |   |-- BucketSort.java
+|   |-- Sort
+|   |   |-- BasicSorts
+|   |   |   |-- InsertionSort.java
+|   |   |   |-- BubbleSort.java
+|   |   |   |-- SelectionSort.java
 |   |   |-- MergeSorts
 |   |   |   |-- MergeSortOptimised.java
 |   |   |   |-- MergeSort.java
@@ -72,29 +69,32 @@ This section contains a curated set of simple problems demonstrating key softwar
 |   |   |-- QuickSorts
 |   |   |   |-- QuickSort.java
 |   |   |   |-- QuickSortOptimised.java
-|   |   |-- BasicSorts
-|   |   |   |-- InsertionSort.java
-|   |   |   |-- BubbleSort.java
-|   |   |   |-- SelectionSort.java
-|   |-- Search
-|   |   |-- HashMap.java
-|   |   |-- SymbolTable.java
-|   |   |-- BinarySearchTreeOrdered.java
-|   |   |-- TreeNode.java
-|   |   |-- TreeTraversals.java
-|   |   |-- BinarySearchTree.java
+|   |   |-- HeapSort.java
+|   |   |-- OptionalSorts
+|   |   |   |-- ShellSort.java
+|   |   |   |-- ShuffleSort.java
+|   |   |   |-- RadixSort.java
+|   |   |   |-- BucketSort.java
 |   |   |-- README.md
-|   |   |-- RedBlackTree.java
+|   |-- Search
 |   |   |-- BinarySearch.java
+|   |   |-- TreeNode.java
+|   |   |-- BinarySearchTree.java
+|   |   |-- BinarySearchTreeOrdered.java
+|   |   |-- TreeTraversals.java
+|   |   |-- RedBlackTree.java
 |   |   |-- AVLTree.java
+|   |   |-- SymbolTable.java
+|   |   |-- HashMap.java
+|   |   |-- README.md
 |   |-- CodeBrush.java	[MAIN FILE]
 |   |-- DesignPatterns
 |   |   |-- README.md
 |   |-- Problems
 |   |   |-- Easy
-|   |   |-- Advanced
 |   |   |-- CodingPatterns
 |   |   |   |-- README.md
+|   |   |-- Advanced
 |-- README.md
 |-- .gitignore
 ```
