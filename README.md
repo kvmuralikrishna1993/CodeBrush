@@ -43,57 +43,59 @@ This section contains a curated set of simple problems demonstrating key softwar
 ## Folder Structure:
 
 ```declarative
-|-- codebrush.ADT
-|   |-- LinkedList.java
-|   |-- Node.java
-|   |-- BinaryTree.java
-|   |-- Queues.java
-|   |-- QuickUnion.java
-|   |-- DoubleLinkedList.java
-|   |-- README.md
-|   |-- PriorityQueue.java
-|   |-- BinaryHeap.java
-|   |-- QuickFind.java
-|   |-- Stacks.java
-|   |-- WeightedQuickUnion.java
-|-- codebrush.Sort
-|   |-- HeapSort.java
-|   |-- README.md
-|   |-- OptionalSorts
-|   |   |-- ShellSort.java
-|   |   |-- ShuffleSort.java
-|   |   |-- RadixSort.java
-|   |   |-- BucketSort.java
-|   |-- MergeSorts
-|   |   |-- MergeSortOptimised.java
-|   |   |-- MergeSort.java
-|   |   |-- MergeSortBottomUp.java
-|   |-- QuickSorts
-|   |   |-- QuickSort.java
-|   |   |-- QuickSortOptimised.java
-|   |-- BasicSorts
-|   |   |-- InsertionSort.java
-|   |   |-- BubbleSort.java
-|   |   |-- SelectionSort.java
-|-- codebrush.Problems
-|   |-- Easy
-|   |-- Advanced
-|   |-- CodingPatterns
+|-- codebrush
+|   |-- ADT
+|   |   |-- LinkedList.java
+|   |   |-- Node.java
+|   |   |-- BinaryTree.java
+|   |   |-- Queues.java
+|   |   |-- QuickUnion.java
+|   |   |-- DoubleLinkedList.java
 |   |   |-- README.md
-|-- codebrush.Search
-|   |-- HashMap.java
-|   |-- SymbolTable.java
-|   |-- BinarySearchTreeOrdered.java
-|   |-- TreeNode.java
-|   |-- TreeTraversals.java
-|   |-- BinarySearchTree.java
-|   |-- README.md
-|   |-- RedBlackTree.java
-|   |-- BinarySearch.java
-|   |-- AVLTree.java
+|   |   |-- PriorityQueue.java
+|   |   |-- BinaryHeap.java
+|   |   |-- QuickFind.java
+|   |   |-- Stacks.java
+|   |   |-- WeightedQuickUnion.java
+|   |-- Sort
+|   |   |-- HeapSort.java
+|   |   |-- README.md
+|   |   |-- OptionalSorts
+|   |   |   |-- ShellSort.java
+|   |   |   |-- ShuffleSort.java
+|   |   |   |-- RadixSort.java
+|   |   |   |-- BucketSort.java
+|   |   |-- MergeSorts
+|   |   |   |-- MergeSortOptimised.java
+|   |   |   |-- MergeSort.java
+|   |   |   |-- MergeSortBottomUp.java
+|   |   |-- QuickSorts
+|   |   |   |-- QuickSort.java
+|   |   |   |-- QuickSortOptimised.java
+|   |   |-- BasicSorts
+|   |   |   |-- InsertionSort.java
+|   |   |   |-- BubbleSort.java
+|   |   |   |-- SelectionSort.java
+|   |-- Search
+|   |   |-- HashMap.java
+|   |   |-- SymbolTable.java
+|   |   |-- BinarySearchTreeOrdered.java
+|   |   |-- TreeNode.java
+|   |   |-- TreeTraversals.java
+|   |   |-- BinarySearchTree.java
+|   |   |-- README.md
+|   |   |-- RedBlackTree.java
+|   |   |-- BinarySearch.java
+|   |   |-- AVLTree.java
+|   |-- CodeBrush.java	[MAIN FILE]
+|   |-- DesignPatterns
+|   |   |-- README.md
+|   |-- Problems
+|   |   |-- Easy
+|   |   |-- Advanced
+|   |   |-- CodingPatterns
+|   |   |   |-- README.md
 |-- README.md
-|-- codebrush.DesignPatterns
-|   |-- README.md
 |-- .gitignore
 ```
 
