@@ -5,35 +5,35 @@ Code Brush is a structured repository for organizing completed problems, data st
 
 ## Folder Structure
 
-### 1. `Problems`
+### 1. `codebrush.Problems`
 This folder contains coding problems categorized as:
 - **CodingPatterns**: Must-do problems based on important coding patterns.
 - **Easy**: Basic problems for warm-up and foundational understanding.
 - **Advanced**: A collection of medium and difficult problems.
 
-### 2. `ADT`
-This directory includes various Abstract Data Types (ADT) implementations such as:
+### 2. `codebrush.ADT`
+This directory includes various Abstract Data Types (codebrush.ADT) implementations such as:
 - Linked Lists
 - Trees
 - Stacks & Queues
 - Union-Find Data Structures
 
-### 3. `Sort`
+### 3. `codebrush.Sort`
 This folder contains implementations of sorting algorithms, including:
-- **BasicSorts**: Insertion Sort, Bubble Sort, Selection Sort.
+- **BasicSorts**: Insertion codebrush.Sort, Bubble codebrush.Sort, Selection codebrush.Sort.
 - **QuickSorts**: QuickSort and its optimized versions.
 - **MergeSorts**: MergeSort, Optimized MergeSort, and Bottom-Up MergeSort.
-- **OptionalSorts**: Additional sorting algorithms like Shell Sort, Bucket Sort, Radix Sort, and Shuffle Sort.
+- **OptionalSorts**: Additional sorting algorithms like Shell codebrush.Sort, Bucket codebrush.Sort, Radix codebrush.Sort, and Shuffle codebrush.Sort.
 
-### 4. `Search`
+### 4. `codebrush.Search`
 This directory contains tree-based search algorithms and data structures, including:
-- Binary Search Tree (BST)
+- Binary codebrush.Search Tree (BST)
 - AVL Tree
 - Red-Black Tree
 - HashMaps and Symbol Tables
 - Tree Traversals
 
-### 5. `DesignPatterns`
+### 5. `codebrush.DesignPatterns`
 This section contains a curated set of simple problems demonstrating key software design patterns.
 
 ## Additional Files
@@ -43,7 +43,7 @@ This section contains a curated set of simple problems demonstrating key softwar
 ## Folder Structure:
 
 ```declarative
-|-- ADT
+|-- codebrush.ADT
 |   |-- LinkedList.java
 |   |-- Node.java
 |   |-- BinaryTree.java
@@ -56,7 +56,7 @@ This section contains a curated set of simple problems demonstrating key softwar
 |   |-- QuickFind.java
 |   |-- Stacks.java
 |   |-- WeightedQuickUnion.java
-|-- Sort
+|-- codebrush.Sort
 |   |-- HeapSort.java
 |   |-- README.md
 |   |-- OptionalSorts
@@ -75,12 +75,12 @@ This section contains a curated set of simple problems demonstrating key softwar
 |   |   |-- InsertionSort.java
 |   |   |-- BubbleSort.java
 |   |   |-- SelectionSort.java
-|-- Problems
+|-- codebrush.Problems
 |   |-- Easy
 |   |-- Advanced
 |   |-- CodingPatterns
 |   |   |-- README.md
-|-- Search
+|-- codebrush.Search
 |   |-- HashMap.java
 |   |-- SymbolTable.java
 |   |-- BinarySearchTreeOrdered.java
@@ -92,7 +92,7 @@ This section contains a curated set of simple problems demonstrating key softwar
 |   |-- BinarySearch.java
 |   |-- AVLTree.java
 |-- README.md
-|-- DesignPatterns
+|-- codebrush.DesignPatterns
 |   |-- README.md
 |-- .gitignore
 ```
