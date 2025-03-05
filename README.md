@@ -5,36 +5,36 @@ Code Brush is a structured repository for organizing completed problems, data st
 
 ## Folder Structure
 
-### 1. `codebrush.Problems`
-This folder contains coding problems categorized as:
-- **CodingPatterns**: Must-do problems based on important coding patterns.
-- **Easy**: Basic problems for warm-up and foundational understanding.
-- **Advanced**: A collection of medium and difficult problems.
-
-### 2. `codebrush.ADT`
-This directory includes various Abstract Data Types (codebrush.ADT) implementations such as:
+### 1. `ADT`
+This directory includes various Abstract Data Types (ADT) implementations such as:
 - Linked Lists
 - Trees
 - Stacks & Queues
 - Union-Find Data Structures
 
-### 3. `codebrush.Sort`
+### 2. `Sort`
 This folder contains implementations of sorting algorithms, including:
-- **BasicSorts**: Insertion codebrush.Sort, Bubble codebrush.Sort, Selection codebrush.Sort.
+- **BasicSorts**: Insertion Sort, Bubble Sort, Selection Sort.
 - **QuickSorts**: QuickSort and its optimized versions.
 - **MergeSorts**: MergeSort, Optimized MergeSort, and Bottom-Up MergeSort.
-- **OptionalSorts**: Additional sorting algorithms like Shell codebrush.Sort, Bucket codebrush.Sort, Radix codebrush.Sort, and Shuffle codebrush.Sort.
+- **OptionalSorts**: Additional sorting algorithms like Shell Sort, Bucket Sort, Radix Sort, and Shuffle Sort.
 
-### 4. `codebrush.Search`
+### 3. `Search`
 This directory contains tree-based search algorithms and data structures, including:
-- Binary codebrush.Search Tree (BST)
+- Binary Search Tree (BST)
 - AVL Tree
 - Red-Black Tree
 - HashMaps and Symbol Tables
 - Tree Traversals
 
-### 5. `codebrush.CodingPatterns`
+### 4. `CodingPatterns`
 This section contains a curated set of simple problems demonstrating key software design patterns.
+
+### 5. `Problems`
+This folder contains coding problems categorized as:
+- **CodingPatterns**: Must-do problems based on important coding patterns.
+- **Easy**: Basic problems for warm-up and foundational understanding.
+- **Advanced**: A collection of medium and difficult problems.
 
 ## Additional Files
 - `.gitignore`: To exclude unnecessary files.
@@ -87,7 +87,7 @@ This section contains a curated set of simple problems demonstrating key softwar
 |   |   |-- SymbolTable.java
 |   |   |-- HashMap.java
 |   |   |-- README.md
-|   |-- CodeBrush.java	[MAIN FILE]
+|   |-- java	[MAIN FILE]
 |   |-- CodingPatterns
 |   |   |-- README.md
 |   |-- Problems

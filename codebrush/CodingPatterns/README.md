@@ -5,16 +5,16 @@
 2. Two Pointers Pattern
 3. Fast & Slow Pointers Pattern
 4. Merge Intervals Pattern
-5. Cyclic codebrush.Sort Pattern
+5. Cyclic Sort Pattern
 6. In-place Reversal of a Linked List Pattern
-7. Tree Breadth-First codebrush.Search Pattern
-8. Tree Depth-First codebrush.Search Pattern
+7. Tree Breadth-First Search Pattern
+8. Tree Depth-First Search Pattern
 9. Subsets Pattern
-10. Modified Binary codebrush.Search Pattern
+10. Modified Binary Search Pattern
 11. Bitwise XOR Pattern
 12. Top 'K' Elements Pattern
 13. K-way Merge Pattern
-14. Topological codebrush.Sort Pattern
+14. Topological Sort Pattern
 15. Trie Pattern
 16. Dynamic Programming Pattern
 
@@ -62,9 +62,9 @@ This pattern is used to solve problems involving overlapping intervals. Sorting 
 ### Example Problem: Merge Intervals
 **Problem:** Given a list of intervals, merge overlapping ones.
 
-## 5. Cyclic codebrush.Sort Pattern
+## 5. Cyclic Sort Pattern
 ### Concept
-Cyclic codebrush.Sort is used when dealing with numbers in a range from 1 to N. The idea is to place numbers in their correct indices by swapping.
+Cyclic Sort is used when dealing with numbers in a range from 1 to N. The idea is to place numbers in their correct indices by swapping.
 
 ### Usage
 - Efficient for missing/duplicate number problems in an array of size N containing numbers from 1 to N.
@@ -84,9 +84,9 @@ This pattern involves reversing linked list nodes in-place without using extra s
 ### Example Problem: Reverse a Linked List
 **Problem:** Given a singly linked list, reverse it.
 
-## 7. Tree Breadth-First codebrush.Search Pattern
+## 7. Tree Breadth-First Search Pattern
 ### Concept
-Breadth-First codebrush.Search (BFS) is used for level-order traversal of trees, processing nodes level by level.
+Breadth-First Search (BFS) is used for level-order traversal of trees, processing nodes level by level.
 
 ### Usage
 - Helps in finding shortest paths in trees.
@@ -95,9 +95,9 @@ Breadth-First codebrush.Search (BFS) is used for level-order traversal of trees,
 ### Example Problem: Binary Tree Level Order Traversal
 **Problem:** Given a binary tree, return its level order traversal.
 
-## 8. Tree Depth-First codebrush.Search Pattern
+## 8. Tree Depth-First Search Pattern
 ### Concept
-Depth-First codebrush.Search (DFS) explores all nodes of a tree or graph deeply before backtracking.
+Depth-First Search (DFS) explores all nodes of a tree or graph deeply before backtracking.
 
 ### Usage
 - Useful in path-related tree problems.
@@ -117,7 +117,7 @@ This pattern is used to generate all possible subsets (power sets) of a given se
 ### Example Problem: Subsets
 **Problem:** Given a set of numbers, return all possible subsets.
 
-## 10. Modified Binary codebrush.Search Pattern
+## 10. Modified Binary Search Pattern
 ### Concept
 Binary search is modified to work in unsorted or rotated arrays instead of just sorted ones.
 
@@ -125,7 +125,7 @@ Binary search is modified to work in unsorted or rotated arrays instead of just 
 - Used for searching in rotated or infinite arrays.
 - Common in problems requiring logarithmic time complexity.
 
-### Example Problem: codebrush.Search in Rotated Sorted Array
+### Example Problem: Search in Rotated Sorted Array
 **Problem:** Given a rotated sorted array, find a target element.
 
 ## 11. Bitwise XOR Pattern
@@ -161,7 +161,7 @@ K-way merging is used to merge multiple sorted lists or arrays efficiently.
 ### Example Problem: Merge k Sorted Lists
 **Problem:** Merge K sorted linked lists into one sorted list.
 
-## 14. Topological codebrush.Sort Pattern
+## 14. Topological Sort Pattern
 ### Concept
 Topological sorting is used in problems involving dependency graphs, such as course scheduling.
 
