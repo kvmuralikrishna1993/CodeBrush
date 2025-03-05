@@ -45,11 +45,11 @@ This folder contains coding problems categorized as:
 ```
 |-- codebrush
 |   |-- ADT
-|   |   |-- Node.java
-|   |   |-- LinkedList.java
+|   |   |-- Node.java ✅
+|   |   |-- LinkedList.java ✅
 |   |   |-- DoubleLinkedList.java
-|   |   |-- Stack.java
-|   |   |-- Queue.java
+|   |   |-- Stack.java ✅
+|   |   |-- Queue.java ✅
 |   |   |-- QuickFind.java
 |   |   |-- QuickUnion.java
 |   |   |-- WeightedQuickUnion.java
@@ -59,9 +59,9 @@ This folder contains coding problems categorized as:
 |   |   |-- README.md
 |   |-- Sort
 |   |   |-- BasicSorts
-|   |   |   |-- InsertionSort.java
-|   |   |   |-- BubbleSort.java
-|   |   |   |-- SelectionSort.java
+|   |   |   |-- InsertionSort.java ✅
+|   |   |   |-- BubbleSort.java ✅
+|   |   |   |-- SelectionSort.java ✅
 |   |   |-- MergeSorts
 |   |   |   |-- MergeSort.java
 |   |   |   |-- MergeSortOptimised.java
