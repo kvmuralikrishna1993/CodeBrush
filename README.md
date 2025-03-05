@@ -33,7 +33,7 @@ This directory contains tree-based search algorithms and data structures, includ
 - HashMaps and Symbol Tables
 - Tree Traversals
 
-### 5. `codebrush.DesignPatterns`
+### 5. `codebrush.CodingPatterns`
 This section contains a curated set of simple problems demonstrating key software design patterns.
 
 ## Additional Files
@@ -48,8 +48,8 @@ This section contains a curated set of simple problems demonstrating key softwar
 |   |   |-- Node.java
 |   |   |-- LinkedList.java
 |   |   |-- DoubleLinkedList.java
-|   |   |-- Stacks.java
-|   |   |-- Queues.java
+|   |   |-- Stack.java
+|   |   |-- Queue.java
 |   |   |-- QuickFind.java
 |   |   |-- QuickUnion.java
 |   |   |-- WeightedQuickUnion.java
@@ -63,8 +63,8 @@ This section contains a curated set of simple problems demonstrating key softwar
 |   |   |   |-- BubbleSort.java
 |   |   |   |-- SelectionSort.java
 |   |   |-- MergeSorts
-|   |   |   |-- MergeSortOptimised.java
 |   |   |   |-- MergeSort.java
+|   |   |   |-- MergeSortOptimised.java
 |   |   |   |-- MergeSortBottomUp.java
 |   |   |-- QuickSorts
 |   |   |   |-- QuickSort.java
@@ -88,13 +88,13 @@ This section contains a curated set of simple problems demonstrating key softwar
 |   |   |-- HashMap.java
 |   |   |-- README.md
 |   |-- CodeBrush.java	[MAIN FILE]
-|   |-- DesignPatterns
+|   |-- CodingPatterns
 |   |   |-- README.md
 |   |-- Problems
 |   |   |-- Easy
 |   |   |-- CodingPatterns
 |   |   |   |-- README.md
-|   |   |-- Advanced
+|   |   |-- Advanced"
 |-- README.md
 |-- .gitignore
 ```
